@@ -1,21 +1,10 @@
-import CounterApplication from './components/CounterApplication.jsx'
-import ContextDemo from './components/ContextDemo.jsx'
-import './App.css'
+import React from 'react'
+import CounterApplication from './components/Counterapplication'
 
-function App() {
+const App = () => {
   return (
-    <div className="app">
-      <h1>React Practical Class</h1>
-
-      <div className="section">
-        <h2>1. Counter Application</h2>
-        <CounterApplication />
-      </div>
-
-      <div className="section">
-        <h2>2. Context API Demo</h2>
-        <ContextDemo />
-      </div>
+    <div>
+      <CounterApplication/>
     </div>
   )
 }
