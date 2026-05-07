@@ -1,0 +1,116 @@
+.app {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.section {
+  margin-bottom: 40px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+.counter-app {
+  text-align: center;
+}
+
+.counter-app h3 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.counter-buttons {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.counter-buttons button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.counter-buttons button:nth-child(1) {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.counter-buttons button:nth-child(1):hover {
+  background-color: #45a049;
+}
+
+.counter-buttons button:nth-child(2) {
+  background-color: #f44336;
+  color: white;
+}
+
+.counter-buttons button:nth-child(2):hover {
+  background-color: #da190b;
+}
+
+.counter-buttons button:nth-child(3) {
+  background-color: #2196F3;
+  color: white;
+}
+
+.counter-buttons button:nth-child(3):hover {
+  background-color: #0b7dda;
+}
+
+.context-demo {
+  background-color: #fff;
+}
+
+.context-demo h3 {
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.context-demo > p {
+  margin-bottom: 20px;
+  color: #666;
+}
+
+.parent-component {
+  margin: 20px 0;
+  padding: 15px;
+  background-color: #e8f5e8;
+  border-radius: 5px;
+}
+
+.parent-component h4 {
+  margin: 0 0 10px 0;
+  color: #2e7d32;
+}
+
+.child-component {
+  margin: 20px 0;
+  padding: 15px;
+  background-color: #fff3e0;
+  border-radius: 5px;
+}
+
+.child-component h4 {
+  margin: 0 0 15px 0;
+  color: #ef6c00;
+}
+
+.user-info {
+  background-color: #f5f5f5;
+  padding: 15px;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+
+.user-info p {
+  margin: 5px 0;
+  color: #333;
+}
